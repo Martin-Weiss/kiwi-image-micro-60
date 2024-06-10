@@ -1,0 +1,124 @@
+-------------------------------------------------------------------
+Fri Jun  7 11:12:40 UTC 2024 - Fabian Vogt <fvogt@suse.com>
+
+- Adjustments for using it as template
+
+-------------------------------------------------------------------
+Tue Apr 16 06:43:05 UTC 2024 - Jiri Srain <jsrain@suse.com>
+
+- rename the patterns (no alp in their names)
+
+-------------------------------------------------------------------
+Wed Apr  3 22:01:32 UTC 2024 - Jiri Srain <jsrain@suse.com>
+
+- define the cipher for FDE image encryption
+
+-------------------------------------------------------------------
+Thu Apr  3 13:33:23 UTC 2024 - Gustavo Yokoyama Ribeiro<gyribeiro@suse.com>
+
+- add open-vm-tools to x86-vmware image (bsc#1221936)
+- add qemu-guest-agent to qcow2 for x86_64 and arch64 images (bsc#1221727)
+
+-------------------------------------------------------------------
+Thu Mar 14 10:29:33 EET 2024 - Ivan Ivanov <iivanov@suse.de>
+
+- add wireless-regdb package to RPi images (bsc#1215134)
+
+-------------------------------------------------------------------
+Thu Mar 22 14:06:14 EET 2024 - Ivan Ivanov (iivanov@suse.de)
+
+- Use correct Grub2 binary for aarch64-self_install (bsc#1221859)
+
+-------------------------------------------------------------------
+Thu Mar  7 13:33:23 UTC 2024 - Jiri Srain <jsrain@suse.com>
+
+- rename product to SL-Micro (SUSE Linux Micro)
+
+-------------------------------------------------------------------
+Tue Feb 20 15:33:22 UTC 2024 - Jiri Srain <jsrain@suse.com>
+
+- include Ignition / Combustion also in images which include
+  cloud-init (jsc#SMO-304)
+
+-------------------------------------------------------------------
+Thu Feb 15 07:00:34 UTC 2024 - Jiri Srain <jsrain@suse.com>
+
+- remove dasd_mod.dasd=ipldev from kernel command-line of DASD
+  images (bsc#1219849)
+
+-------------------------------------------------------------------
+Wed Feb 14 20:03:33 UTC 2024 - Jiri Srain <jsrain@suse.com>
+
+- resize the encrypted and qemu images (bsc#1219009)
+
+-------------------------------------------------------------------
+Tue Feb 13 12:03:52 UTC 2024 - Jiri Srain <jsrain@suse.com>
+
+- remove duplication of cockpit (pattern and plain packages)
+  in the image description
+
+-------------------------------------------------------------------
+Mon Feb 12 08:20:47 UTC 2024 - Jiri Srain <jsrain@suse.com>
+
+- increase uEFI partition size to 128MB on aarch64 to accommodate
+  firmware (bsc#1219212)
+- switch selected images from Ignition / Combustion to cloud-init
+  (jsc#SMO-304)
+
+-------------------------------------------------------------------
+Thu Jan 18 09:47:54 UTC 2024 - Jiri Srain <jsrain@suse.com>
+
+- use correct base pattern
+- don't require systemd-presets explicitly (it is in the pattern)
+
+-------------------------------------------------------------------
+Thu Jan 11 13:07:08 UTC 2024 - Jiri Srain <jsrain@suse.com>
+
+- adapt to pattern rename (alp-base-zypper to
+  alp-base-transactional)
+
+-------------------------------------------------------------------
+Fri Jan  5 12:39:13 UTC 2024 - Jiri Srain <jsrain@suse.com>
+
+- use uefi firmware for Raspberry Pi image (bsc#1218316)
+
+-------------------------------------------------------------------
+Thu Dec 14 15:09:13 UTC 2023 - Jiri Srain <jsrain@suse.com>
+
+- define the start sector on aarch64 (jsc#PED-3494)
+
+-------------------------------------------------------------------
+Thu Dec 14 14:51:33 UTC 2023 - Jiri Srain <jsrain@suse.com>
+
+- define the /var subvolume on aarch64 qeemu image (bsc#1218063)
+
+-------------------------------------------------------------------
+Mon Dec 11 09:47:15 UTC 2023 - Jiri Srain <jsrain@suse.com>
+
+- unify the names of images (kvm -> qcow)
+
+-------------------------------------------------------------------
+Tue Dec  5 08:02:28 UTC 2023 - Jiri Srain <jsrain@suse.com>
+
+- expanded the set of images
+
+-------------------------------------------------------------------
+Thu Nov 30 23:14:56 UTC 2023 - Jiri Srain <jsrain@suse.com>
+
+- include KVM stack, cockpit and podman patterns
+
+-------------------------------------------------------------------
+Mon Nov 27 09:42:52 UTC 2023 - Frederic Crozat <fcrozat@suse.com>
+
+- Switch selfinstall to use ignition autodetection.
+
+-------------------------------------------------------------------
+Wed Nov 22 08:44:18 UTC 2023 - Giacomo Leidi <giacomo.leidi@suse.com>
+
+- config.sh: Preconfiguring a repository breaks SUSEConnect (bsc#1217122)
+
+-------------------------------------------------------------------
+Mon Oct 16 20:24:06 UTC 2023 - Gustavo Yokoyama Ribeiro <gyribeiro@suse.com>
+
+- initial version
+
