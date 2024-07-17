@@ -6,7 +6,7 @@
   "PowerOn": false,
   "InjectOvfEnv": false,
   "WaitForIP": false,
-  "Name": "slmicro60-kiwi-template-v0.1",
+  "Name": "slmicro60-kiwi-template-v0.2",
   "NetworkMapping": [
   {
   "Name": "192-168-0",

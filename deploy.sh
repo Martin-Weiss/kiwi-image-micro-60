@@ -20,8 +20,8 @@ fi
 # test if govc works
 #govc tree
 
-# delete current vm
-govc vm.destroy slmicro60-kiwi-template-v0.1
+# delete current template
+#govc vm.destroy slmicro60-kiwi-template-v0.1
 
 # import ova
 govc import.ova -options=deploy.json -folder=Kubernetes image-bundle/SL-Micro.x86_64-6.0-0.ova

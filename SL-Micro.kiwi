@@ -764,6 +764,9 @@
     <!-- bsc#1221936 -->
     <packages type="image" profiles="x86-vmware">
         <package name="open-vm-tools"/>
+    	<!-- iscsi and nfs i.e. for longhorn -->
+        <package name="open-iscsi"/>
+        <package name="nfs-client"/>
     </packages>
 
     <!-- bsc#1221727-->
