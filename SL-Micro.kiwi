@@ -758,7 +758,11 @@
         <package name="kernel-default"/>
     </packages>
     <packages type="bootstrap">
-        <package name="filesystem"/>
+	<package name="filesystem"/>
+        <!-- Avoid that zypper picks the busybox-foo variant for those, that would fail later -->
+        <package name="gawk"/>
+        <package name="coreutils"/>
+        <package name="gzip"/>
     </packages>
 
     <!-- bsc#1221936 -->
