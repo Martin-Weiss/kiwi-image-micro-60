@@ -187,7 +187,7 @@
     </profiles>
 
     <preferences profiles="x86-encrypted,x86-rt-encrypted">
-        <version>6.0</version>
+        <version>6.0.0</version>
         <packagemanager>zypper</packagemanager>
         <bootsplash-theme>SLE</bootsplash-theme>
         <bootloader-theme>SLE</bootloader-theme>
@@ -223,7 +223,7 @@
         </type>
     </preferences>
     <preferences profiles="x86,x86-rt">
-        <version>6.0</version>
+        <version>6.0.0</version>
         <packagemanager>zypper</packagemanager>
         <bootsplash-theme>SLE</bootsplash-theme>
         <bootloader-theme>SLE</bootloader-theme>
@@ -259,7 +259,7 @@
     </preferences>
 
     <preferences profiles="x86-self_install,x86-rt-self_install">
-        <version>6.0</version>
+        <version>6.0.0</version>
         <packagemanager>zypper</packagemanager>
         <bootsplash-theme>SLE</bootsplash-theme>
         <bootloader-theme>SLE</bootloader-theme>
@@ -298,7 +298,7 @@
     </preferences>
 
     <preferences profiles="rpi">
-        <version>6.0</version>
+        <version>6.0.0</version>
         <packagemanager>zypper</packagemanager>
         <bootsplash-theme>SLE</bootsplash-theme>
         <bootloader-theme>SLE</bootloader-theme>
@@ -338,7 +338,7 @@
         </type>
     </preferences>
     <preferences profiles="aarch64-self_install">
-        <version>6.0</version>
+        <version>6.0.0</version>
         <packagemanager>zypper</packagemanager>
         <bootsplash-theme>SLE</bootsplash-theme>
         <bootloader-theme>SLE</bootloader-theme>
@@ -378,7 +378,7 @@
     </preferences>
 
     <preferences profiles="s390-kvm">
-        <version>6.0</version>
+        <version>6.0.0</version>
         <packagemanager>zypper</packagemanager>
         <bootsplash-theme>SLE</bootsplash-theme>
         <bootloader-theme>SLE</bootloader-theme>
@@ -416,7 +416,7 @@
 
 
     <preferences profiles="s390-dasd">
-        <version>6.0</version>
+        <version>6.0.0</version>
         <packagemanager>zypper</packagemanager>
         <bootsplash-theme>SLE</bootsplash-theme>
         <bootloader-theme>SLE</bootloader-theme>
@@ -454,7 +454,7 @@
 
 
     <preferences profiles="s390-fba">
-        <version>6.0</version>
+        <version>6.0.0</version>
         <packagemanager>zypper</packagemanager>
         <bootsplash-theme>SLE</bootsplash-theme>
         <bootloader-theme>SLE</bootloader-theme>
@@ -490,7 +490,7 @@
 
 
     <preferences profiles="x86-vmware">
-        <version>6.0</version>
+        <version>6.0.0</version>
         <packagemanager>zypper</packagemanager>
         <bootsplash-theme>SLE</bootsplash-theme>
         <bootloader-theme>SLE</bootloader-theme>
@@ -531,7 +531,7 @@
         </type>
     </preferences>
     <preferences profiles="x86-qcow">
-        <version>6.0</version>
+        <version>6.0.0</version>
         <packagemanager>zypper</packagemanager>
         <bootsplash-theme>SLE</bootsplash-theme>
         <bootloader-theme>SLE</bootloader-theme>
@@ -568,7 +568,7 @@
     </preferences>
  
     <preferences profiles="aarch64-qcow">
-        <version>6.0</version>
+        <version>6.0.0</version>
         <packagemanager>zypper</packagemanager>
         <bootsplash-theme>SLE</bootsplash-theme>
         <bootloader-theme>SLE</bootloader-theme>
